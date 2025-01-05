@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My GitHub Pages Website</title>
-<!--     <style>
+    <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
       margin-top: 50px;
     }
   </style>
- -->
+
   
   <!-- CSS
     ================================================== -->
@@ -21,20 +21,54 @@
 </head>
 
 <body>
-<!--   <h1>Hi, I'm Sophie.</h1>
-  <p>I'm a Mechanical Engineering student at University of Ottawa, a curious learner with a passion for problem-solving and collaborative work!</p> -->
   
   <header>
-    <h1>Hi, I'm Sophie.</h1>
-    <p>A Mechanical Engineering student at University of Ottawa, passionate about problem-solving and collaborative work!</p>
-    <nav>
+    
+<!--     <h1>Hi, I'm Sophie.</h1>
+    <p>A Mechanical Engineering student at University of Ottawa, passionate about problem-solving and collaborative work!</p> -->
+    
+<!--     <nav>
       <a href="#about-me">About Me</a> | 
       <a href="#projects">Projects</a> | 
       <a href="#contact">Contact</a>
+    </nav> -->
+
+    <nav class="header-nav">
+
+      <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+      <div class="header-nav__content">
+        <h3>Menu</h3>
+
+        <ul class="header-nav__list">
+          <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+          <li><a class="smoothscroll" href="#about" title="about-me">About Me</a></li>
+          <li><a class="smoothscroll" href="#projects" title="projects">Projects</a></li>
+          <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+        </ul>
+
+        <ul class="header-nav__social">
+          <li>
+            <a href="https://www.linkedin.com/in/sophie-somin-kim/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="mailto: sophiesominkim29@gmail.com" target="_blank"><i class="fa fa-paper-plane"></i></a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- end header-nav__content -->
+
     </nav>
+    <!-- end header-nav -->
   </header>
 
   <main>
+    <!-- Home Section -->
+    <section id="home">
+    <h1>Hi, I'm Sophie.</h1>
+    <p>A Mechanical Engineering student at University of Ottawa, passionate about problem-solving and collaborative work!</p>
+    
     <!-- About Me Section -->
     <section id="about-me">
       <h2>Nice to connect with you! Let me introduce myself.</h2>
